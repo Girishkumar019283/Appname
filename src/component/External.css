@@ -1,0 +1,13 @@
+.text{
+    color: brown;
+    font-style: italic;
+    font-weight: 700;
+    font-family: cursive;
+}
+
+.txt-sucess{
+    color: green;
+    font-style: underline;
+    font-weight: 700;
+    font-family:'Times New Roman', Times, serif;
+}
