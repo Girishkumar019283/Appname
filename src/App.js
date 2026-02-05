@@ -6,7 +6,7 @@ import HoverCounterComp from './component/HoverCounterComp';
 function App() {
   return (
     <div className="App">
-    
+      <h1>welxcoweee</h1>
       <ClickCounterComp/>
       <HoverCounterComp/>
     </div>
