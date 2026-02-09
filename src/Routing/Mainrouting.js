@@ -6,6 +6,9 @@ import PageNotFoundComp from "../layout/PageNotFoundComp"
 import HooksComp from "../Reacthooks/HooksComp";
 import UseStateComp from "../Reacthooks/UseStateComp";
 import UseEffectComp from "../Reacthooks/UseEffectComp";
+import PRoductdetailsComp from "../CRUD/PRoductdetailsComp";
+import AddproductComp from "../CRUD/AddproductComp";
+import UpdateComp from "../CRUD/UpdateComp";
 
 const router=createBrowserRouter([
    {path:"images",element:<MyImagesComp/>},
@@ -15,5 +18,8 @@ const router=createBrowserRouter([
    {path:"hooks",element:<HooksComp/>,children:[
     {path:"usestate",element:<UseStateComp/>},
     {path:"useeffect",element:<UseEffectComp/>}
-   ]}
+   ]},
+   {path:"productdetail",element:<PRoductdetailsComp/>},
+   {path:"addproductcomp",element:<AddproductComp/>},
+   {path:"updatedetail",element:<UpdateComp/>}
 ])
